@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/schmuel/schmueltool
+CMAKE_SOURCE_DIR = /home/schmuel/schmueltool/SchmuelTool
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/schmuel/schmueltool/build/all/app
+CMAKE_BINARY_DIR = /home/schmuel/schmueltool/SchmuelTool/build/all/app
 
 # Utility rule file for schmueltool.schmuel.pot.
 
@@ -54,10 +54,10 @@ CMAKE_BINARY_DIR = /home/schmuel/schmueltool/build/all/app
 include po/CMakeFiles/schmueltool.schmuel.pot.dir/progress.make
 
 po/CMakeFiles/schmueltool.schmuel.pot:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/schmuel/schmueltool/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
-	cd /home/schmuel/schmueltool/build/all/app/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/schmuel/schmueltool schmueltool.desktop.in
-	cd /home/schmuel/schmueltool/build/all/app/po && /usr/bin/xgettext -o schmueltool.schmuel.pot -D /home/schmuel/schmueltool/po -D /home/schmuel/schmueltool/build/all/app/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=ctr:1c,2 --keyword=dctr:2c,3 --keyword=N_ --keyword=_ --keyword=dtr:2 --keyword=dtr:2,3 --keyword=tag --keyword=tag:1c,2 --package-name='schmueltool.schmuel' --sort-by-file ../qml/Main.qml schmueltool.desktop.in.h
-	cd /home/schmuel/schmueltool/build/all/app/po && /usr/bin/cmake -E copy schmueltool.schmuel.pot /home/schmuel/schmueltool/po
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/schmuel/schmueltool/SchmuelTool/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating translation template"
+	cd /home/schmuel/schmueltool/SchmuelTool/build/all/app/po && /usr/bin/intltool-extract --update --type=gettext/ini --srcdir=/home/schmuel/schmueltool/SchmuelTool schmueltool.desktop.in
+	cd /home/schmuel/schmueltool/SchmuelTool/build/all/app/po && /usr/bin/xgettext -o schmueltool.schmuel.pot -D /home/schmuel/schmueltool/SchmuelTool/po -D /home/schmuel/schmueltool/SchmuelTool/build/all/app/po --from-code=UTF-8 --c++ --qt --language=javascript --add-comments=TRANSLATORS --keyword=tr --keyword=tr:1,2 --keyword=ctr:1c,2 --keyword=dctr:2c,3 --keyword=N_ --keyword=_ --keyword=dtr:2 --keyword=dtr:2,3 --keyword=tag --keyword=tag:1c,2 --package-name='schmueltool.schmuel' --sort-by-file ../qml/Main.qml schmueltool.desktop.in.h
+	cd /home/schmuel/schmueltool/SchmuelTool/build/all/app/po && /usr/bin/cmake -E copy schmueltool.schmuel.pot /home/schmuel/schmueltool/SchmuelTool/po
 
 schmueltool.schmuel.pot: po/CMakeFiles/schmueltool.schmuel.pot
 schmueltool.schmuel.pot: po/CMakeFiles/schmueltool.schmuel.pot.dir/build.make
@@ -70,10 +70,10 @@ po/CMakeFiles/schmueltool.schmuel.pot.dir/build: schmueltool.schmuel.pot
 .PHONY : po/CMakeFiles/schmueltool.schmuel.pot.dir/build
 
 po/CMakeFiles/schmueltool.schmuel.pot.dir/clean:
-	cd /home/schmuel/schmueltool/build/all/app/po && $(CMAKE_COMMAND) -P CMakeFiles/schmueltool.schmuel.pot.dir/cmake_clean.cmake
+	cd /home/schmuel/schmueltool/SchmuelTool/build/all/app/po && $(CMAKE_COMMAND) -P CMakeFiles/schmueltool.schmuel.pot.dir/cmake_clean.cmake
 .PHONY : po/CMakeFiles/schmueltool.schmuel.pot.dir/clean
 
 po/CMakeFiles/schmueltool.schmuel.pot.dir/depend:
-	cd /home/schmuel/schmueltool/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/schmuel/schmueltool /home/schmuel/schmueltool/po /home/schmuel/schmueltool/build/all/app /home/schmuel/schmueltool/build/all/app/po /home/schmuel/schmueltool/build/all/app/po/CMakeFiles/schmueltool.schmuel.pot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/schmuel/schmueltool/SchmuelTool/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/schmuel/schmueltool/SchmuelTool /home/schmuel/schmueltool/SchmuelTool/po /home/schmuel/schmueltool/SchmuelTool/build/all/app /home/schmuel/schmueltool/SchmuelTool/build/all/app/po /home/schmuel/schmueltool/SchmuelTool/build/all/app/po/CMakeFiles/schmueltool.schmuel.pot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : po/CMakeFiles/schmueltool.schmuel.pot.dir/depend
 

@@ -54,8 +54,10 @@ class W2u:
         child.expect('root.*')
         child.sendline('sudo test -d /home/phablet/Downloads/WayDroid/ || sudo mkdir /home/phablet/Downloads/WayDroid/')
         child.expect('root.*')
-        child.sendline('sudo cp -R .local/share/waydroid/data/media/0/DCIM/Camera/* /home/phablet/Downloads/WayDroid/')
+        child.sendline('sudo cp -R .local/share/waydroid/data/media/0/DCIM/* /home/phablet/Downloads/WayDroid/')
         child.expect('root.*')
+        child.sendline('sudo cp -R .local/share/waydroid/data/media/0/Pictures/ /home/phablet/Downloads/WayDroid/')
+        child.expect("root.*")
         child.close()
 
     def remove(self, password):

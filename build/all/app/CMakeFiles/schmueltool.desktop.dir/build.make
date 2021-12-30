@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/schmuel/schmueltool
+CMAKE_SOURCE_DIR = /home/schmuel/schmueltool/SchmuelTool
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/schmuel/schmueltool/build/all/app
+CMAKE_BINARY_DIR = /home/schmuel/schmueltool/SchmuelTool/build/all/app
 
 # Utility rule file for schmueltool.desktop.
 
@@ -54,9 +54,9 @@ CMAKE_BINARY_DIR = /home/schmuel/schmueltool/build/all/app
 include CMakeFiles/schmueltool.desktop.dir/progress.make
 
 CMakeFiles/schmueltool.desktop:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/schmuel/schmueltool/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into schmueltool.desktop..."
-	LC_ALL=C /usr/bin/intltool-merge -d -u /home/schmuel/schmueltool/po /home/schmuel/schmueltool/schmueltool.desktop.in schmueltool.desktop
-	sed -i 's/schmueltool-//g' /home/schmuel/schmueltool/build/all/app/schmueltool.desktop
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/schmuel/schmueltool/SchmuelTool/build/all/app/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Merging translations into schmueltool.desktop..."
+	LC_ALL=C /usr/bin/intltool-merge -d -u /home/schmuel/schmueltool/SchmuelTool/po /home/schmuel/schmueltool/SchmuelTool/schmueltool.desktop.in schmueltool.desktop
+	sed -i 's/schmueltool-//g' /home/schmuel/schmueltool/SchmuelTool/build/all/app/schmueltool.desktop
 
 schmueltool.desktop: CMakeFiles/schmueltool.desktop
 schmueltool.desktop: CMakeFiles/schmueltool.desktop.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/schmueltool.desktop.dir/clean:
 .PHONY : CMakeFiles/schmueltool.desktop.dir/clean
 
 CMakeFiles/schmueltool.desktop.dir/depend:
-	cd /home/schmuel/schmueltool/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/schmuel/schmueltool /home/schmuel/schmueltool /home/schmuel/schmueltool/build/all/app /home/schmuel/schmueltool/build/all/app /home/schmuel/schmueltool/build/all/app/CMakeFiles/schmueltool.desktop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/schmuel/schmueltool/SchmuelTool/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/schmuel/schmueltool/SchmuelTool /home/schmuel/schmueltool/SchmuelTool /home/schmuel/schmueltool/SchmuelTool/build/all/app /home/schmuel/schmueltool/SchmuelTool/build/all/app /home/schmuel/schmueltool/SchmuelTool/build/all/app/CMakeFiles/schmueltool.desktop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/schmueltool.desktop.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/schmuel/schmueltool
+CMAKE_SOURCE_DIR = /home/schmuel/schmueltool/SchmuelTool
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/schmuel/schmueltool/build/all/app
+CMAKE_BINARY_DIR = /home/schmuel/schmueltool/SchmuelTool/build/all/app
 
 # Utility rule file for schmueltool_FILES.
 
@@ -67,6 +67,6 @@ CMakeFiles/schmueltool_FILES.dir/clean:
 .PHONY : CMakeFiles/schmueltool_FILES.dir/clean
 
 CMakeFiles/schmueltool_FILES.dir/depend:
-	cd /home/schmuel/schmueltool/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/schmuel/schmueltool /home/schmuel/schmueltool /home/schmuel/schmueltool/build/all/app /home/schmuel/schmueltool/build/all/app /home/schmuel/schmueltool/build/all/app/CMakeFiles/schmueltool_FILES.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/schmuel/schmueltool/SchmuelTool/build/all/app && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/schmuel/schmueltool/SchmuelTool /home/schmuel/schmueltool/SchmuelTool /home/schmuel/schmueltool/SchmuelTool/build/all/app /home/schmuel/schmueltool/SchmuelTool/build/all/app /home/schmuel/schmueltool/SchmuelTool/build/all/app/CMakeFiles/schmueltool_FILES.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/schmueltool_FILES.dir/depend
 

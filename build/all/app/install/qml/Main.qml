@@ -188,7 +188,7 @@ MainView {
 				anchors.right: parent.right
 				anchors.rightMargin: parent.width / 8
 				color: "green"
-				text: "Add"
+                text: "Copy"
 				onClicked: {
                     PopupUtils.open(w2uCopyPrompt)
 				}

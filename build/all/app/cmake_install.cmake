@@ -1,4 +1,4 @@
-# Install script for directory: /home/schmuel/schmueltool
+# Install script for directory: /home/schmuel/schmueltool/SchmuelTool
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/." TYPE FILE FILES "/home/schmuel/schmueltool/build/all/app/manifest.json")
+file(INSTALL DESTINATION "/." TYPE FILE FILES "/home/schmuel/schmueltool/SchmuelTool/build/all/app/manifest.json")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -53,7 +53,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/schmuel/schmueltool/schmueltool.apparmor")
+file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/schmuel/schmueltool/SchmuelTool/schmueltool.apparmor")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -65,7 +65,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/schmuel/schmueltool/assets")
+file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/schmuel/schmueltool/SchmuelTool/assets")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -77,7 +77,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/schmuel/schmueltool/src")
+file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/schmuel/schmueltool/SchmuelTool/src")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -89,7 +89,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/schmuel/schmueltool/qml")
+file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/schmuel/schmueltool/SchmuelTool/qml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -101,7 +101,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/schmuel/schmueltool/deps")
+file(INSTALL DESTINATION "/" TYPE DIRECTORY FILES "/home/schmuel/schmueltool/SchmuelTool/deps")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -113,12 +113,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/schmuel/schmueltool/build/all/app/schmueltool.desktop")
+file(INSTALL DESTINATION "/" TYPE FILE FILES "/home/schmuel/schmueltool/SchmuelTool/build/all/app/schmueltool.desktop")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/schmuel/schmueltool/build/all/app/po/cmake_install.cmake")
+  include("/home/schmuel/schmueltool/SchmuelTool/build/all/app/po/cmake_install.cmake")
 
 endif()
 
@@ -130,5 +130,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/schmuel/schmueltool/build/all/app/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/schmuel/schmueltool/SchmuelTool/build/all/app/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

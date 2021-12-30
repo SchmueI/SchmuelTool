@@ -1,4 +1,4 @@
-# Install script for directory: /home/schmuel/schmueltool/po
+# Install script for directory: /home/schmuel/schmueltool/SchmuelTool/po
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
