@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the schmueltool.schmuel package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: schmueltool.schmuel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-30 02:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/Main.qml:49 schmueltool.desktop.in.h:1
+msgid "Schmuel Tool"
+msgstr ""
+
+#: ../qml/Main.qml:105
+msgid "Copy to Waydroid"
+msgstr ""
+
+#: ../qml/Main.qml:155
+msgid "Copy to Ubuntu"
+msgstr ""
+
+#: ../qml/Main.qml:206
+msgid "Restart Unity8 (ST unity8 App)"
+msgstr ""
+
+#: ../qml/Main.qml:263 ../qml/Main.qml:295 ../qml/Main.qml:327
+#: ../qml/Main.qml:359
+msgid "Enter your password:"
+msgstr ""
+
+#: ../qml/Main.qml:273 ../qml/Main.qml:305 ../qml/Main.qml:337
+#: ../qml/Main.qml:369
+msgid "Ok"
+msgstr ""

@@ -1,0 +1,15 @@
+/home/schmuel/schmueltool/build/all/app/CMakeFiles/install.dir
+/home/schmuel/schmueltool/build/all/app/CMakeFiles/list_install_components.dir
+/home/schmuel/schmueltool/build/all/app/CMakeFiles/edit_cache.dir
+/home/schmuel/schmueltool/build/all/app/CMakeFiles/rebuild_cache.dir
+/home/schmuel/schmueltool/build/all/app/CMakeFiles/schmueltool.desktop.dir
+/home/schmuel/schmueltool/build/all/app/CMakeFiles/schmueltool_FILES.dir
+/home/schmuel/schmueltool/build/all/app/CMakeFiles/install/strip.dir
+/home/schmuel/schmueltool/build/all/app/CMakeFiles/install/local.dir
+/home/schmuel/schmueltool/build/all/app/po/CMakeFiles/rebuild_cache.dir
+/home/schmuel/schmueltool/build/all/app/po/CMakeFiles/install.dir
+/home/schmuel/schmueltool/build/all/app/po/CMakeFiles/list_install_components.dir
+/home/schmuel/schmueltool/build/all/app/po/CMakeFiles/schmueltool.schmuel.pot.dir
+/home/schmuel/schmueltool/build/all/app/po/CMakeFiles/install/strip.dir
+/home/schmuel/schmueltool/build/all/app/po/CMakeFiles/install/local.dir
+/home/schmuel/schmueltool/build/all/app/po/CMakeFiles/edit_cache.dir
