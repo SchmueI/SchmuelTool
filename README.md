@@ -15,4 +15,4 @@ You should have received a copy of the GNU General Public License along with thi
 
 ## Source
 
-This program was made by using and modifying the code of Waydroid by Aaron Hafer. Chech out his GitHub Repo and the WayDroid Helper App :  <https://github.com/Aarontheissueguy/WaydroidHelper/>.
+This program was made by using and modifying the code of WaydroidHelper by Aaron Hafer. Chech out his GitHub Repo and the WayDroid Helper App :  <https://github.com/Aarontheissueguy/WaydroidHelper/>.
