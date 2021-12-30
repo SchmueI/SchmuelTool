@@ -13,6 +13,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-## SOURCE
+## Source
 
 This program was made by using and modifying the code of Waydroid by Aaron Hafer. Chech out his GitHub Repo and the WayDroid Helper App :  <https://github.com/Aarontheissueguy/WaydroidHelper/>.
